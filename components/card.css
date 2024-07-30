@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 40px 10%;
+  border: 3px solid black;
+  background-color: var(--secondary-color);
+  padding: 10% 5%;
+  scroll-margin-top: 100px;
+  text-wrap: wrap;
+}
+
+.question {
+  font-size: 20px;
+}
+
+.card__answer {
+  margin-top: 40px;
+  border-radius: 37.5px;
+  width: 100px;
+  height: 37.5px;
+  align-self: center;
+}
+
+.card__categories {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  margin: 40px 0 0 0;
+  gap: 10px;
+  text-wrap: wrap;
+}
+
+.card__categorie-item {
+  padding: 10px;
+  font-size: 10px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 10px;
+}
+
+.card__bookmark {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  width: 35px;
+  background-color: transparent;
+  border: none;
+}

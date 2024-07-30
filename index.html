@@ -3,32 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="header">
       <h1>QUIZ APP</h1>
     </header>
     <main>
-
       <section class="card">
-        <strong><p class="question">What property flips the axes in flexbox?</p></strong>
-        <button class="bookmark"><img src="./images/bookmark.png" class="bookmark"></button>
+        <strong>
+          <p class="question">
+            Who is considered the founder of the Bauhaus style?
+          </p>
+          <!-- Walter Gropius founded the world-famous Bauhaus in Weimar in 1919 -->
+        </strong>
+        <button aria-label="bookmark question" class="bookmark">
+          <img src="./images/bookmark.png" class="card__bookmark" />
+        </button>
         <button class="card__answer">Show Answer</button>
         <ul class="card__categories" aria-label="Answer">
-          <li class="card__categorie-item">#html</li>
-          <li class="card__categorie-item">#flexbox</li>
-          <li class="card__categorie-item">#css</li>
+          <li class="card__categorie-item">#architecture</li>
+          <li class="card__categorie-item">#style</li>
+          <li class="card__categorie-item">#minimalism</li>
         </ul>
       </section>
-
-    <footer class="footer">
-      <ul class="nav-bar">
-        <li><a href="#home" aria-label="Home"><img src="./images/home_filled.png" width="30px" class="icon"></a></li>
-        <li><a href="#bookmarks" aria-label="Bookmarks"><img src="./images/bookmark_filled.png" width="30px" class="icon"></a></li>
-        <li><a href="#profile" aria-label="Profile"><img src="./images/profile_filled.png" width="30px" class="icon"></a></li>
-      </ul>
-    </footer>
+      <section class="card">
+        <strong>
+          <p class="question">
+            What's the name of the temple on the Acropolis in Athens?
+          </p>
+          <!-- the Parthenon was built in 432 b.c. -->
+        </strong>
+        <button aria-label="bookmark question" class="bookmark">
+          <img src="./images/bookmark.png" class="card__bookmark" />
+        </button>
+        <button class="card__answer">Show Answer</button>
+        <ul class="card__categories" aria-label="Answer">
+          <li class="card__categorie-item">#athens</li>
+          <li class="card__categorie-item">#ancient</li>
+          <li class="card__categorie-item">#mythology</li>
+        </ul>
+      </section>
+      <section class="card">
+        <strong>
+          <p class="question">When was reinforced concrete invented?</p>
+          <!-- Monier got the patent for his invention in 1867, he used it to build stronger flowerpots -->
+        </strong>
+        <button aria-label="bookmark question" class="bookmark">
+          <img src="./images/bookmark.png" class="card__bookmark" />
+        </button>
+        <button class="card__answer">Show Answer</button>
+        <ul class="card__categories" aria-label="Answer">
+          <li class="card__categorie-item">#concrete</li>
+          <li class="card__categorie-item">#inventions</li>
+          <li class="card__categorie-item">#inventions</li>
+        </ul>
+      </section>
+      <section class="card">
+        <strong>
+          <p class="question">
+            Which architect designed the famous Villa Savoye?
+            <!-- Le Corbusier designed the Villa Savoye, which is one of the most important modern residential buildings -->
+          </p>
+        </strong>
+        <button aria-label="bookmark question" class="bookmark">
+          <img src="./images/bookmark.png" class="card__bookmark" />
+        </button>
+        <button class="card__answer">Show Answer</button>
+        <ul class="card__categories" aria-label="Answer">
+          <li class="card__categorie-item">#architect</li>
+          <li class="card__categorie-item">#modern</li>
+          <li class="card__categorie-item">#icon</li>
+        </ul>
+      </section>
+      <section class="card">
+        <strong>
+          <p class="question">How high is the Burj Khalifa in Dubai?</p>
+          <!-- the Burj Khalifa is 828m high and was opened in 2010 -->
+        </strong>
+        <button aria-label="bookmark question" class="bookmark">
+          <img src="./images/bookmark.png" class="card__bookmark" />
+        </button>
+        <button class="card__answer">Show Answer</button>
+        <ul class="card__categories" aria-label="Answer">
+          <li class="card__categorie-item">#building</li>
+          <li class="card__categorie-item">#uae</li>
+          <li class="card__categorie-item">#record</li>
+        </ul>
+      </section>
+      <footer class="footer">
+        <ul class="nav-bar">
+          <li>
+            <a aria-label="home" href="./index.html"
+              ><img src="./images/home_filled.png" width="30px" class="icon"
+            /></a>
+          </li>
+          <li>
+            <a aria-label="bookmarks" href="./bookmarks.html"
+              ><img
+                src="./images/bookmark_filled.png"
+                width="30px"
+                class="icon"
+            /></a>
+          </li>
+          <li>
+            <a aria-label="profile" href="./profile.html"
+              ><img src="./images/profile_filled.png" width="30px" class="icon"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </main>
   </body>
 </html>
