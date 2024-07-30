@@ -42,6 +42,10 @@ body {
   text-wrap: wrap;
 }
 
+.question {
+  font-size: 20px;
+}
+
 .card__answer {
   margin-top: 40px;
   border-radius: 37.5px;
