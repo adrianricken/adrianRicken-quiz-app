@@ -1,0 +1,14 @@
+.footer {
+  position: sticky;
+  bottom: 0;
+}
+
+.nav-bar {
+  display: flex;
+  height: 75px;
+  border-top: 3px solid white;
+  background: var(--primary-color);
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
