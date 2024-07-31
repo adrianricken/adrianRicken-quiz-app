@@ -16,9 +16,10 @@
 
 .card__answer {
   margin-top: 40px;
-  border-radius: 37.5px;
+  border-radius: 20px 0;
   width: 100px;
   height: 37.5px;
+  margin-left: -155px;
   align-self: center;
 }
 

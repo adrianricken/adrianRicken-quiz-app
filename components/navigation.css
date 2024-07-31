@@ -1,11 +1,13 @@
 .footer {
-  position: sticky;
+  position: fixed;
   bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .nav-bar {
   display: flex;
-  height: 75px;
+  height: 62.5px;
   border-top: 3px solid white;
   background: var(--primary-color);
   flex-direction: row;
