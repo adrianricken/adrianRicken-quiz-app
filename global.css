@@ -9,12 +9,14 @@
   --secondary-color: #ffdab9;
   --white: #ffffff;
   --dark: #162140;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: ; */
 }
 
 body {
   /* background-image: linear-gradient(#ff6347, #000000); */
   background-color: var(--primary-color);
+  font-family: "Crimson Pro", serif;
+  font-size: 48px;
 }
 
 a {
