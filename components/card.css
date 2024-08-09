@@ -1,17 +1,28 @@
 .card {
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 300px;
+  max-height: 300px;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   position: relative;
   flex-direction: column;
-  margin: 40px 10%;
+  margin: 20px 10%;
   border: 3px solid black;
   background-color: var(--secondary-color);
-  padding: 10% 5%;
+  padding: 10% 10%;
   scroll-margin-top: 100px;
   text-wrap: wrap;
+  border-radius: 15% 0;
+  /* background-image: linear-gradient(rgb(255, 222, 174), #7e9ecbba); */
 }
 
 .question {
   font-size: 20px;
+  /* display: flex;
+  position: fixed;
+  flex-wrap: wrap; */
 }
 
 .card__answer {
@@ -19,7 +30,6 @@
   border-radius: 20px 0;
   width: 100px;
   height: 37.5px;
-  margin-left: -155px;
   align-self: center;
 }
 
