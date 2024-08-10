@@ -1,13 +1,17 @@
 .header {
   display: flex;
-  position: sticky;
+  position: fixed;
   justify-content: center;
   align-items: center;
   top: 0;
   z-index: 1;
   height: 75px;
-  background-color: var(--primary-color);
-  border-bottom: 3px solid white;
+  width: 100%;
+  background-color: #7c5f59;
+  border-bottom: 2px solid black;
   color: white;
-  -webkit-text-stroke: 2px black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  /* background-image: linear-gradient(#7e9ecbba, var(--primary-color)); */
 }

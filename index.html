@@ -5,83 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Oxygen:wght@300;400;700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Rubik+Scribble&family=Tiny5&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
       <h1>QUIZ</h1>
     </header>
     <main>
-      <section class="card">
-        <strong>
-          <p class="question">
-            Who is considered the founder of the Bauhaus style?
-          </p>
-          <!-- Walter Gropius founded the world-famous Bauhaus in Weimar in 1919 -->
-        </strong>
-        <img src="./images/bookmark.png" class="card__bookmark" />
-        <button class="card__answer">Show Answer</button>
-        <ul class="card__categories">
-          <li class="card__categorie-item">#architecture</li>
-          <li class="card__categorie-item">#style</li>
-          <li class="card__categorie-item">#minimalism</li>
-        </ul>
-      </section>
-      <section class="card">
-        <strong>
-          <p class="question">
-            How's the temple on top of the Acropolis in Athens called?
-          </p>
-          <!-- the Parthenon was built in 432 b.c. -->
-        </strong>
-        <img src="./images/bookmark.png" class="card__bookmark" />
-        <button class="card__answer">Show Answer</button>
-        <ul class="card__categories">
-          <li class="card__categorie-item">#athens</li>
-          <li class="card__categorie-item">#ancient</li>
-          <li class="card__categorie-item">#mythology</li>
-        </ul>
-      </section>
-      <section class="card">
-        <strong>
-          <p class="question">When was reinforced concrete invented?</p>
-          <!-- Monier got the patent for his invention in 1867, he used it to build stronger flowerpots -->
-        </strong>
-        <img src="./images/bookmark.png" class="card__bookmark" />
-        <button class="card__answer">Show Answer</button>
-        <ul class="card__categories">
-          <li class="card__categorie-item">#concrete</li>
-          <li class="card__categorie-item">#inventions</li>
-          <li class="card__categorie-item">#inventions</li>
-        </ul>
-      </section>
-      <section class="card">
-        <strong>
-          <p class="question">
-            Which architect designed the famous Villa Savoye?
-            <!-- Le Corbusier designed the Villa Savoye, which is one of the most important modern residential buildings -->
-          </p>
-        </strong>
-        <img src="./images/bookmark.png" class="card__bookmark" />
-        <button class="card__answer">Show Answer</button>
-        <ul class="card__categories">
-          <li class="card__categorie-item">#architect</li>
-          <li class="card__categorie-item">#modern</li>
-          <li class="card__categorie-item">#icon</li>
-        </ul>
-      </section>
-      <section class="card">
-        <strong>
-          <p class="question">How high is the Burj Khalifa in Dubai?</p>
-          <!-- the Burj Khalifa is 828m high and was opened in 2010 -->
-        </strong>
-        <img src="./images/bookmark.png" class="card__bookmark" />
-        <button class="card__answer">Show Answer</button>
-        <ul class="card__categories">
-          <li class="card__categorie-item">#building</li>
-          <li class="card__categorie-item">#uae</li>
-          <li class="card__categorie-item">#record</li>
-        </ul>
-      </section>
+      <div class="card-container">
+        <section class="card">
+          <strong>
+            <p class="question">
+              Who is considered the founder of the Bauhaus style?
+            </p>
+            <!-- Walter Gropius founded the world-famous Bauhaus in Weimar in 1919 -->
+          </strong>
+          <img src="./images/bookmark.png" class="card__bookmark bookmark1" />
+          <button class="card__answer">Show Answer</button>
+          <ul class="card__categories">
+            <li class="card__categorie-item">#architecture</li>
+            <li class="card__categorie-item">#style</li>
+            <li class="card__categorie-item">#minimalism</li>
+          </ul>
+        </section>
+        <section class="card">
+          <strong>
+            <p class="question">
+              How's the temple on top of the Acropolis in Athens called?
+            </p>
+            <!-- the Parthenon was built in 432 b.c. -->
+          </strong>
+          <img src="./images/bookmark.png" class="card__bookmark" />
+          <button class="card__answer">Show Answer</button>
+          <ul class="card__categories">
+            <li class="card__categorie-item">#athens</li>
+            <li class="card__categorie-item">#ancient</li>
+            <li class="card__categorie-item">#mythology</li>
+          </ul>
+        </section>
+        <section class="card">
+          <strong>
+            <p class="question">When was reinforced concrete invented?</p>
+            <!-- Monier got the patent for his invention in 1867, he used it to build stronger flowerpots -->
+          </strong>
+          <img src="./images/bookmark.png" class="card__bookmark" />
+          <button class="card__answer">Show Answer</button>
+          <ul class="card__categories">
+            <li class="card__categorie-item">#concrete</li>
+            <li class="card__categorie-item">#inventions</li>
+            <li class="card__categorie-item">#inventions</li>
+          </ul>
+        </section>
+        <section class="card">
+          <strong>
+            <p class="question">
+              Which architect designed the famous Villa Savoye?
+              <!-- Le Corbusier designed the Villa Savoye, which is one of the most important modern residential buildings -->
+            </p>
+          </strong>
+          <img src="./images/bookmark.png" class="card__bookmark" />
+          <button class="card__answer">Show Answer</button>
+          <ul class="card__categories">
+            <li class="card__categorie-item">#architect</li>
+            <li class="card__categorie-item">#modern</li>
+            <li class="card__categorie-item">#icon</li>
+          </ul>
+        </section>
+        <section class="card">
+          <strong>
+            <p class="question">How high is the Burj Khalifa in Dubai?</p>
+            <!-- the Burj Khalifa is 828m high and was opened in 2010 -->
+          </strong>
+          <img src="./images/bookmark.png" class="card__bookmark" />
+          <button class="card__answer">Show Answer</button>
+          <ul class="card__categories">
+            <li class="card__categorie-item">#building</li>
+            <li class="card__categorie-item">#uae</li>
+            <li class="card__categorie-item">#record</li>
+          </ul>
+        </section>
+      </div>
       <footer class="footer">
         <ul class="nav-bar">
           <li>
@@ -96,6 +104,11 @@
                 width="30px"
                 class="icon"
               />
+            </a>
+          </li>
+          <li>
+            <a aria-label="add question" href="./form.html">
+              <img src="./images/addquestion.png" width="30px" class="icon" />
             </a>
           </li>
           <li>

@@ -8,53 +8,68 @@
   </head>
   <body>
     <header class="header">
-      <h1>BOOKMARKS</h1>
+      <h1>SAVED</h1>
     </header>
     <main>
-      <section class="card">
-        <strong>
-          <p class="question">When was reinforced concrete invented?</p>
-          <!-- Monier got the patent for his invention in 1867, he used it to build stronger flowerpots -->
-        </strong>
-        <img src="./images/bookmark.png" class="card__bookmark" />
-        <button class="card__answer">Show Answer</button>
-        <ul class="card__categories">
-          <li class="card__categorie-item">#concrete</li>
-          <li class="card__categorie-item">#inventions</li>
-          <li class="card__categorie-item">#inventions</li>
-        </ul>
-      </section>
-      <section class="card">
-        <strong>
-          <p class="question">
-            Which architect designed the famous Villa Savoye?
-            <!-- Le Corbusier designed the Villa Savoye, which is one of the most important modern residential buildings -->
-          </p>
-        </strong>
-        <img src="./images/bookmark.png" class="card__bookmark" />
-        <button class="card__answer">Show Answer</button>
-        <ul class="card__categories">
-          <li class="card__categorie-item">#architect</li>
-          <li class="card__categorie-item">#modern</li>
-          <li class="card__categorie-item">#icon</li>
-        </ul>
-      </section>
+      <div class="card-container">
+        <section class="card">
+          <strong>
+            <p class="question">When was reinforced concrete invented?</p>
+            <!-- Monier got the patent for his invention in 1867, he used it to build stronger flowerpots -->
+          </strong>
+          <img src="./images/bookmark.png" class="card__bookmark" />
+          <button class="card__answer">Show Answer</button>
+          <ul class="card__categories">
+            <li class="card__categorie-item">#concrete</li>
+            <li class="card__categorie-item">#inventions</li>
+            <li class="card__categorie-item">#inventions</li>
+          </ul>
+        </section>
+        <section class="card">
+          <strong>
+            <p class="question">
+              Which architect designed the famous Villa Savoye?
+              <!-- Le Corbusier designed the Villa Savoye, which is one of the most important modern residential buildings -->
+            </p>
+          </strong>
+          <img src="./images/bookmark.png" class="card__bookmark" />
+          <button class="card__answer">Show Answer</button>
+          <ul class="card__categories">
+            <li class="card__categorie-item">#architect</li>
+            <li class="card__categorie-item">#modern</li>
+            <li class="card__categorie-item">#icon</li>
+          </ul>
+        </section>
+      </div>
       <footer class="footer">
         <ul class="nav-bar">
           <li>
-            <a aria-label="home" href="./index.html"
-              ><img src="./images/home_filled.png" width="30px" class="icon"
-            /></a>
+            <a aria-label="home" href="./index.html">
+              <img src="./images/home_filled.png" width="30px" class="icon" />
+            </a>
           </li>
           <li>
             <a aria-label="bookmarks" href="./bookmarks.html">
-              <img src="./images/bookmark_filled.png" width="30px" class="icon"
-            /></a>
+              <img
+                src="./images/bookmark_filled.png"
+                width="30px"
+                class="icon"
+              />
+            </a>
           </li>
           <li>
-            <a aria-label="profile" href="./profile.html"
-              ><img src="./images/profile_filled.png" width="30px" class="icon"
-            /></a>
+            <a aria-label="add question" href="./form.html">
+              <img src="./images/addquestion.png" width="30px" class="icon" />
+            </a>
+          </li>
+          <li>
+            <a aria-label="profile" href="./profile.html">
+              <img
+                src="./images/profile_filled.png"
+                width="30px"
+                class="icon"
+              />
+            </a>
           </li>
         </ul>
       </footer>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>ADD CARD</h1>
+    </header>
+    <main class="newQuestionMain">
+      <section class="card__new">
+        <strong>
+          <form class="newQuestionForm">
+            <fieldset class="newQuestionFieldset">
+              <legend class="newQuestion">Your question:</legend>
+              <textarea
+                name="newQuestion"
+                id="newQuestion"
+                class="newTextarea"
+                rows="5"
+                type="text"
+                maxlength="150"
+              ></textarea>
+              <div class="remainingChars">Characters left: 150</div>
+            </fieldset>
+
+            <fieldset class="newQuestionFieldset">
+              <legend class="newQuestion">Your answer:</legend>
+              <textarea
+                name="newAnswer"
+                id="newAnswer"
+                class="newTextarea"
+                rows="5"
+                type="text"
+                maxlength="150"
+              ></textarea>
+              <div class="remainingChars">Characters left: 150</div>
+            </fieldset>
+
+            <fieldset class="newQuestionFieldset">
+              <legend class="newQuestion">Tags:</legend>
+              <textarea
+                name="newTags"
+                id="newTags"
+                class="newTextarea"
+              ></textarea>
+            </fieldset>
+
+            <button type="submit" class="card__answer">submit</button>
+          </form>
+        </strong>
+      </section>
+
+      <footer class="footer">
+        <ul class="nav-bar">
+          <li>
+            <a aria-label="home" href="./index.html">
+              <img src="./images/home_filled.png" width="30px" class="icon" />
+            </a>
+          </li>
+          <li>
+            <a aria-label="bookmarks" href="./bookmarks.html">
+              <img
+                src="./images/bookmark_filled.png"
+                width="30px"
+                class="icon"
+              />
+            </a>
+          </li>
+          <li>
+            <a aria-label="add question" href="./form.html">
+              <img src="./images/addquestion.png" width="30px" class="icon" />
+            </a>
+          </li>
+          <li>
+            <a aria-label="profile" href="./profile.html">
+              <img
+                src="./images/profile_filled.png"
+                width="30px"
+                class="icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>
