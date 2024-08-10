@@ -8,13 +8,14 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  margin: 20px 10%;
-  border: 3px solid black;
+  margin: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3),
+    -3px -3px 5px rgba(0, 0, 0, 0.2);
   background-color: var(--secondary-color);
-  padding: 10% 10%;
+  padding: 30px 30px;
   scroll-margin-top: 100px;
   text-wrap: wrap;
-  border-radius: 15% 0;
+  border-radius: 45px 0;
   /* background-image: linear-gradient(rgb(255, 222, 174), #7e9ecbba); */
 }
 
@@ -27,7 +28,7 @@
 
 .card__answer {
   margin-top: 40px;
-  border-radius: 20px 0;
+  border-radius: 0 20px;
   width: 100px;
   height: 37.5px;
   align-self: center;
