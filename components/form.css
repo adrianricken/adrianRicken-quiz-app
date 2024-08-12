@@ -1,8 +1,8 @@
 .card__new {
   min-width: 300px;
   max-width: 300px;
-  min-height: 700px;
-  max-height: 700px;
+  min-height: 300px;
+  max-height: 600px;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -12,7 +12,7 @@
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3),
     -3px -3px 5px rgba(0, 0, 0, 0.2);
   background-color: var(--secondary-color);
-  padding: 10% 10%;
+  padding: 30px 15px;
   scroll-margin-top: 100px;
   text-wrap: wrap;
   border-radius: 45px 0;
@@ -28,6 +28,7 @@
 
 .newQuestionFieldset {
   border: none;
+  margin-left: 20px;
 }
 
 .newQuestion {
@@ -35,13 +36,32 @@
 }
 
 .newTextarea {
-  width: 200px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), -3px -3px 5px rgba(0, 0, 0, 0.2);
+  width: 240px;
+  /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), -3px -3px 5px rgba(0, 0, 0, 0.2); */
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.newTags {
+  display: flex;
+  margin-right: 170px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.newInput {
+  display: flex;
+  margin-left: 20px;
+  align-self: center;
+  width: 240px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3)
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .remainingChars {
   margin-top: -10px;
-  font-size: 15px;
+  font-size: 12.5px;
 }
 
 /* Stile für das Formular */

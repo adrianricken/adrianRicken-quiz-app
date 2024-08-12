@@ -10,22 +10,48 @@
     <header class="header">
       <h1>PROFILE</h1>
     </header>
+
     <main>
-      <section class="card__profile">
-        <h2>User</h2>
-        <h4>About me</h4>
-        <p class="text__profile">
+      <section class="profile">
+        <div>
+          <img
+            src="https://picsum.photos/400/400"
+            alt="profile picture"
+            class="profilePicture"
+          />
+        </div>
+        <h2 class="profileUsername">Adrian Ricken</h2>
+        <h3>About me</h3>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ullam
-          sequi hic maxime fuga placeat. Voluptate labore quaerat facere
-          necessitatibus.
+          sequi hic maxime fuga placeat.
         </p>
+        <div class="profile__button-wrapper">
+          <button class="profile__question-button">
+            <img src="./images/addquestion.png" />
+            <span>12</span>
+          </button>
+          <button class="profile__bookmark-button">
+            <img src="./images/bookmark.png" />
+            <span>2</span>
+          </button>
+        </div>
+        <div class="switch-container">
+          <input id="dark-mode" type="checkbox" />
+          <div class="switch"></div>
+        </div>
       </section>
 
       <footer class="footer">
         <ul class="nav-bar">
           <li>
             <a aria-label="home" href="./index.html">
-              <img src="./images/home_filled.png" width="30px" class="icon" />
+              <img
+                src="./images/home_filled.png"
+                width="30px"
+                height="30px"
+                class="icon"
+              />
             </a>
           </li>
           <li>
@@ -47,7 +73,7 @@
               <img
                 src="./images/profile_filled.png"
                 width="30px"
-                class="icon"
+                class="icon__active"
               />
             </a>
           </li>

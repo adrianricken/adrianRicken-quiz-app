@@ -18,38 +18,38 @@
               <legend class="newQuestion">Your question:</legend>
               <textarea
                 name="newQuestion"
-                id="newQuestion"
+                id="textField1"
                 class="newTextarea"
                 rows="5"
                 type="text"
-                maxlength="150"
+                placeholder="Type your question here..."
+                data-js="questionInput"
               ></textarea>
-              <div class="remainingChars">Characters left: 150</div>
+              <p class="remainingChars" data-js="charsLeft1">150 characters left</p>
             </fieldset>
 
             <fieldset class="newQuestionFieldset">
               <legend class="newQuestion">Your answer:</legend>
               <textarea
                 name="newAnswer"
-                id="newAnswer"
+                id="textField2"
                 class="newTextarea"
                 rows="5"
                 type="text"
-                maxlength="150"
+                placeholder="Type your answer here..."
+                data-js="answerInput"
               ></textarea>
-              <div class="remainingChars">Characters left: 150</div>
+              <p class="remainingChars" data-js="charsLeft2">150 characters left</p>
             </fieldset>
-
-            <fieldset class="newQuestionFieldset">
-              <legend class="newQuestion">Tags:</legend>
-              <textarea
+            <h2 class="newTags">Tags:</h2>
+            <input
                 name="newTags"
                 id="newTags"
-                class="newTextarea"
-              ></textarea>
-            </fieldset>
-
-            <button type="submit" class="card__answer">submit</button>
+                class="newInput"
+                type="text"
+                placeholder="Add tags matching your question..."
+              ></input>
+            <button type="submit" class="card__answer">Add question</button>
           </form>
         </strong>
       </section>
@@ -72,7 +72,7 @@
           </li>
           <li>
             <a aria-label="add question" href="./form.html">
-              <img src="./images/addquestion.png" width="30px" class="icon" />
+              <img src="./images/addquestion.png" width="30px" class="icon__active" />
             </a>
           </li>
           <li>
@@ -88,4 +88,5 @@
       </footer>
     </main>
   </body>
+  <script src="./index.js"></script>
 </html>

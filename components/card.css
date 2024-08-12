@@ -28,7 +28,7 @@
 
 .card__answer {
   margin-top: 40px;
-  border-radius: 0 20px;
+  /* border-radius: 0 20px; */
   width: 100px;
   height: 37.5px;
   align-self: center;
@@ -58,4 +58,8 @@
   width: 35px;
   background-color: transparent;
   border: none;
+}
+
+.card__bookmark-active {
+  filter: invert(100%);
 }

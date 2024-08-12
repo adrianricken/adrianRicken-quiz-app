@@ -25,13 +25,18 @@
             </p>
             <!-- Walter Gropius founded the world-famous Bauhaus in Weimar in 1919 -->
           </strong>
-          <img src="./images/bookmark.png" class="card__bookmark bookmark1" />
-          <button class="card__answer">Show Answer</button>
+          <input
+            type="image"
+            src="./images/bookmark.png"
+            class="card__bookmark"
+            data-js="bookmark1"
+          />
           <ul class="card__categories">
             <li class="card__categorie-item">#architecture</li>
             <li class="card__categorie-item">#style</li>
             <li class="card__categorie-item">#minimalism</li>
           </ul>
+          <button class="card__answer" type="button">Show Answer</button>
         </section>
         <section class="card">
           <strong>
@@ -40,26 +45,34 @@
             </p>
             <!-- the Parthenon was built in 432 b.c. -->
           </strong>
-          <img src="./images/bookmark.png" class="card__bookmark" />
-          <button class="card__answer">Show Answer</button>
+          <input
+            type="image"
+            src="./images/bookmark.png"
+            class="card__bookmark"
+          />
           <ul class="card__categories">
             <li class="card__categorie-item">#athens</li>
             <li class="card__categorie-item">#ancient</li>
             <li class="card__categorie-item">#mythology</li>
           </ul>
+          <button class="card__answer" type="button">Show Answer</button>
         </section>
         <section class="card">
           <strong>
             <p class="question">When was reinforced concrete invented?</p>
             <!-- Monier got the patent for his invention in 1867, he used it to build stronger flowerpots -->
           </strong>
-          <img src="./images/bookmark.png" class="card__bookmark" />
-          <button class="card__answer">Show Answer</button>
+          <input
+            type="image"
+            src="./images/bookmark.png"
+            class="card__bookmark"
+          />
           <ul class="card__categories">
             <li class="card__categorie-item">#concrete</li>
             <li class="card__categorie-item">#inventions</li>
             <li class="card__categorie-item">#inventions</li>
           </ul>
+          <button class="card__answer" type="button">Show Answer</button>
         </section>
         <section class="card">
           <strong>
@@ -68,33 +81,45 @@
               <!-- Le Corbusier designed the Villa Savoye, which is one of the most important modern residential buildings -->
             </p>
           </strong>
-          <img src="./images/bookmark.png" class="card__bookmark" />
-          <button class="card__answer">Show Answer</button>
+          <input
+            type="image"
+            src="./images/bookmark.png"
+            class="card__bookmark"
+          />
           <ul class="card__categories">
             <li class="card__categorie-item">#architect</li>
             <li class="card__categorie-item">#modern</li>
             <li class="card__categorie-item">#icon</li>
           </ul>
+          <button class="card__answer" type="button">Show Answer</button>
         </section>
         <section class="card">
           <strong>
             <p class="question">How high is the Burj Khalifa in Dubai?</p>
             <!-- the Burj Khalifa is 828m high and was opened in 2010 -->
           </strong>
-          <img src="./images/bookmark.png" class="card__bookmark" />
-          <button class="card__answer">Show Answer</button>
+          <input
+            type="image"
+            src="./images/bookmark.png"
+            class="card__bookmark"
+          />
           <ul class="card__categories">
             <li class="card__categorie-item">#building</li>
             <li class="card__categorie-item">#uae</li>
             <li class="card__categorie-item">#record</li>
           </ul>
+          <button class="card__answer" type="button">Show Answer</button>
         </section>
       </div>
       <footer class="footer">
         <ul class="nav-bar">
           <li>
             <a aria-label="home" href="./index.html">
-              <img src="./images/home_filled.png" width="30px" class="icon" />
+              <img
+                src="./images/home_filled.png"
+                width="30px"
+                class="icon__active"
+              />
             </a>
           </li>
           <li>
@@ -123,5 +148,6 @@
         </ul>
       </footer>
     </main>
+    <script src="./index.js"></script>
   </body>
 </html>
