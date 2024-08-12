@@ -1,4 +1,4 @@
-.footer {
+footer {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -8,10 +8,8 @@
 .nav-bar {
   display: flex;
   height: 62.5px;
-  border-top: 2px solid black;
-  /* background: var(--primary-color); */
+  border-top: 2px solid white;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  /* background-image: linear-gradient(var(--primary-color), #7e9ecbba); */
 }

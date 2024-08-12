@@ -8,20 +8,9 @@ const charsLeft2 = document.querySelector('[data-js="charsLeft2"]');
 
 // ---------------------------------------------------------------------------
 
-// Bookmark icon on / off
-if (bookmark) {
-  bookmark.addEventListener("click", () => {
-    bookmark.classList.toggle("card__bookmark-active");
-  });
-}
-
-// ---------------------------------------------------------------------------
-
 // characters left
 
 function updateCharCount(inputSource, outputElement) {
-  console.log("Hello", inputSource, outputElement);
-
   const inputLength = inputSource.value.length;
   const maxLength = inputSource.maxLength;
   const charsLeft = maxLength - inputLength;
@@ -37,5 +26,7 @@ answerInput.addEventListener("input", () => {
 });
 
 // ---------------------------------------------------------------------------
+
+// add new card
 
 // ---------------------------------------------------------------------------

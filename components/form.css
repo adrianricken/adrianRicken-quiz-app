@@ -16,7 +16,6 @@
   scroll-margin-top: 100px;
   text-wrap: wrap;
   border-radius: 45px 0;
-  /* background-image: linear-gradient(rgb(255, 222, 174), #7e9ecbba); */
 }
 
 .newQuestionMain {
@@ -47,12 +46,14 @@
   margin-right: 170px;
   margin-bottom: 10px;
   font-size: 20px;
+  font-weight: 100;
 }
 
 .newInput {
   display: flex;
   margin-left: 20px;
   align-self: center;
+  padding: 5px;
   width: 240px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3)
   padding: 5px;
@@ -61,12 +62,14 @@
 
 .remainingChars {
   margin-top: -10px;
-  font-size: 12.5px;
+  font-size: 10px;
+  color: gray;
 }
 
 /* Stile für das Formular */
 .newQuestionForm {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   width: 90%;
@@ -82,16 +85,13 @@
   border-radius: 5px;
 }
 
-/* Stile für die Textareas */
-/* .newTextarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Schatten hinzufügen */
-  resize: vertical; /* Erlaubt die vertikale Größenänderung */
-} */
-
 .newQuestionSubmit:hover {
   background-color: #0056b3;
+}
+
+.form__submit {
+  width: 100px;
+  height: 37.5px;
+  align-self: center;
+  margin-top: 30px;
 }

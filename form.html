@@ -11,8 +11,7 @@
       <h1>ADD CARD</h1>
     </header>
     <main class="newQuestionMain">
-      <section class="card__new">
-        <strong>
+        <section class="card__new">
           <form class="newQuestionForm">
             <fieldset class="newQuestionFieldset">
               <legend class="newQuestion">Your question:</legend>
@@ -22,8 +21,10 @@
                 class="newTextarea"
                 rows="5"
                 type="text"
+                maxlength="150"
                 placeholder="Type your question here..."
                 data-js="questionInput"
+                required
               ></textarea>
               <p class="remainingChars" data-js="charsLeft1">150 characters left</p>
             </fieldset>
@@ -36,8 +37,10 @@
                 class="newTextarea"
                 rows="5"
                 type="text"
+                maxlength="150"
                 placeholder="Type your answer here..."
                 data-js="answerInput"
+                required
               ></textarea>
               <p class="remainingChars" data-js="charsLeft2">150 characters left</p>
             </fieldset>
@@ -48,11 +51,11 @@
                 class="newInput"
                 type="text"
                 placeholder="Add tags matching your question..."
+                required
               ></input>
-            <button type="submit" class="card__answer">Add question</button>
+            <button type="submit" class="form__submit">Add question</button>
           </form>
-        </strong>
-      </section>
+        </section>
 
       <footer class="footer">
         <ul class="nav-bar">
